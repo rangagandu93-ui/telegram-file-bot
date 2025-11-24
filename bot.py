@@ -4,9 +4,9 @@ import threading
 import time
 
 # ENV variable se token read karega
-BOT_TOKEN = os.getenv("8291586190:AAHVyRpc7qr-CF2jpSULD1tH1uHj0tgwBq8")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-bot = telebot.TeleBot(8291586190:AAHVyRpc7qr-CF2jpSULD1tH1uHj0tgwBq8)
+bot = telebot.TeleBot(BOT_TOKEN)
 
 # Sirf tum upload kar sako
 ADMIN_ID = 8057485206  # <-- Yaha apna Telegram numeric ID daalna
